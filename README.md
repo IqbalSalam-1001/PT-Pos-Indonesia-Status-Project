@@ -165,6 +165,5 @@ CodeIgniter 3 dilisensikan di bawah [MIT License](https://opensource.org/license
 
 <!-- Isi profil Anda di bawah ini -->
 
-- **Nama:** _Nama Anda_
-- **GitHub:** _https://github.com/username_
-- **LinkedIn / Email:** _opsional_
+- **Nama:** IqbalSalamRobani
+- **GitHub:** _https://github.com/IqbalSalam-1001
