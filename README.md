@@ -113,13 +113,16 @@ Buka browser: **http://localhost:8000/**
 
 Halaman default mengarah ke controller `auth` (login).
 
-### 5. Akun demo (dari data sampel)
+### 5. Akun Demo (Untuk keperluan pengujian lokal)
 
-| Username | Keterangan |
-|----------|------------|
-| `psis` | Admin (level 0) |
-| `orang` | Pengguna level 1 |
-| `dimas` | Pengguna level 1 |
+Gunakan kredensial berikut untuk menguji fitur aplikasi:
+
+| Username | Password | Keterangan |
+| :--- | :--- | :--- |
+| `Iqbal1001` | `Iqbal1001` | Pengguna level 1 |
+| `User123` | `User123` | Pengguna level 0 |
+
+*Catatan: Pada sistem aslinya, password disimpan secara aman menggunakan hash MD5 di dalam database.*
 
 > Password disimpan sebagai hash MD5 di database. Gunakan password yang sesuai data asli Anda, atau reset lewat SQLite jika diperlukan.
 
