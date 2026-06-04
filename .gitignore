@@ -1,0 +1,77 @@
+# ------------------------------------------------------------------------------
+# CodeIgniter 3 — application runtime (keep index.html placeholders)
+# ------------------------------------------------------------------------------
+application/cache/*
+!application/cache/index.html
+!application/cache/sessions/
+application/cache/sessions/*
+!application/cache/sessions/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+# ------------------------------------------------------------------------------
+# Database (SQLite portfolio — DO NOT ignore)
+# application/database/database.sqlite is intentionally tracked.
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Dependencies & build artifacts
+# ------------------------------------------------------------------------------
+/vendor/
+composer.lock
+
+# ------------------------------------------------------------------------------
+# OS & editor junk
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.buildpath
+.settings/
+/nbproject/
+*.sublime-workspace
+*.sublime-project
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# ------------------------------------------------------------------------------
+# PHP / environment
+# ------------------------------------------------------------------------------
+*.log
+.env
+.env.*
+!.env.example
+.phpunit.result.cache
+
+# ------------------------------------------------------------------------------
+# CodeIgniter upstream / test artifacts (if present)
+# ------------------------------------------------------------------------------
+tests/mocks/database/ci_test.sqlite
+tests/tests/
+tests/results/
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# ------------------------------------------------------------------------------
+# Local-only helper scripts (optional)
+# ------------------------------------------------------------------------------
+fix_view_paths.php
